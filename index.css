@@ -239,7 +239,7 @@ p {
 }
 @media(max-width:551px){
     .portifolio{
-        font-size: 25px;
+        font-size: 30px;
     }
     h1{
         margin: auto;
@@ -276,7 +276,7 @@ p {
     .cardapio{
         display: flex;
         width: 29px;
-        padding: 5px;
+        padding: 15px;
         border-radius: 3px;
         color: white;
         justify-content: space-between;
@@ -287,7 +287,7 @@ p {
         margin: auto;
     }
     .icon{
-        margin-top: 15px;
+        margin-top: 5px;
     }
 }
 
