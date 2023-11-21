@@ -22,8 +22,6 @@ function clicouMenu(){
    }else{
     opçao.style.display= 'none'
    }
-   
+
    
 }
-
-

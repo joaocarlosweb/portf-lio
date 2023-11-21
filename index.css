@@ -144,6 +144,10 @@ p {
     width: 25px;
     background-color: white;
 }
+.opçao{
+    color: white;
+    display: none;
+}
 
 
 @media(max-width :1192px) {
@@ -167,6 +171,15 @@ p {
         font-size: 20px;
         text-align: justify;
     }
+    .opçao{
+        display: none;
+    }
+    ul{
+        display: flex;
+    }
+    li{
+        display: flex;
+    }
 }
 
 @media(max-width :924px) {
@@ -183,9 +196,12 @@ p {
         font-size: 22px;
         text-align: justify;
     }
-
+    ul{
+        display: flex;
+    }
     li {
         font-size: 19px;
+        display: flex;
     }
     p{
         font-size:16px;
@@ -195,6 +211,9 @@ p {
     }
     .tittle{
         margin-top: 20px;
+    }
+    .opçao{
+        display: none;
     }
 }
 @media(max-width :700px){
@@ -235,6 +254,9 @@ p {
     }
     .tittle{
         margin-top: 30px;
+    }
+    .opçao{
+        display: none;
     }
 }
 @media(max-width:551px){
