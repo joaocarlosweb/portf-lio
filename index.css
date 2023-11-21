@@ -243,6 +243,10 @@ p {
     }
     h1{
         margin: auto;
+        font-size: 40px;
+    }
+    span{
+        font-size: 45px;
     }
     .tittle{
 
@@ -265,6 +269,9 @@ p {
         display:none;
         
     }
+    ul{
+        margin-right: 10px;
+    }
     li{
         display: flex;
         flex-direction: column;
@@ -278,7 +285,7 @@ p {
         width: 29px;
         padding: 15px;
         border-radius: 3px;
-        color: white;
+        color: rgb(226, 13, 13);
         justify-content: space-between;
         align-items: center;
         margin-top: 27px;
@@ -288,6 +295,14 @@ p {
     }
     .icon{
         margin-top: 15px;
+    }
+    .opçao{
+        color: white;
+        display: none;
+    }
+    .opçao-1{
+        display: flex;
+        flex-direction: column;
     }
 }
 

@@ -10,12 +10,20 @@ setInterval( function(){
 },2000);
 
 function clicouMenu(){
+    let opçao =document.querySelector('.opçao');
    let  menu= document.getElementById("intens")
    if(menu.style.display == 'block'){
     menu.style.display='none'
    }else{
     menu.style.display='block'
    }
+   if(menu.style.display == 'block'){
+    opçao.style.display= 'block'
+   }else{
+    opçao.style.display= 'none'
+   }
+   
    
 }
+
 
