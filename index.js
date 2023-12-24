@@ -17,11 +17,9 @@ function clicouMenu(){
    }else{
     menu.style.display='block'
    }
-   if(menu.style.display == 'block'){
-    opçao.style.display= 'block'
-   }else{
-    opçao.style.display= 'none'
-   }
-
+   
+   
    
 }
+
+

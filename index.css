@@ -82,7 +82,7 @@ a {
 }
 
 .personagem:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 #foto {
@@ -174,11 +174,8 @@ p {
     .opçao{
         display: none;
     }
-    ul{
-        display: flex;
-    }
-    li{
-        display: flex;
+    nav{
+        display: block;
     }
 }
 
@@ -196,12 +193,9 @@ p {
         font-size: 22px;
         text-align: justify;
     }
-    ul{
-        display: flex;
-    }
+
     li {
         font-size: 19px;
-        display: flex;
     }
     p{
         font-size:16px;
